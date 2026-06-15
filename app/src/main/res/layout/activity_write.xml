@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <EditText
+        style="@style/write_style"
+        android:id="@+id/quote_edit"
+        android:layout_width="match_parent"
+        android:inputType="text"
+        android:hint="@string/quote_placeholder"
+        android:importantForAutofill="no" />
+
+    <Button
+        style="@style/write_style"
+        android:id="@+id/ok_btn"
+        android:background="@color/orange"
+        android:layout_width="wrap_content"
+        android:text="@string/ok_btn"
+        android:textFontWeight="700"/>
+
+</LinearLayout>

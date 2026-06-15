@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">2c_Explicit_Intents</string>
+    <string name="write">Write Quote</string>
+    <string name="show">Show Quote</string>
+    <string name="quote_label">QUOTE</string>
+    <string name="quote_placeholder">Write your quote here</string>
+    <string name="ok_btn">OK</string>
+
+    <string name="ok_message">Quote saved</string>
+    <string name="not_ok_message">No quote entered</string>
+    <string name="empty_quote_message">No quote available</string>
+    <string name="alert_message">Are you sure you want to cancel?</string>
+    <string name="alert_yes">Yes</string>
+    <string name="alert_no">No</string>
+
+    <string name="back">Back</string>
+</resources>
